@@ -6,6 +6,6 @@ st.caption('テストページ作成中です')
 st.subheader('')
 st.text('')
 
-image=Image.open('.\data\okojo.jpg')
+image=Image.open('.\\data\\okojo.jpg')
 st.image(image, width=250)
 st.text('')
