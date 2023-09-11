@@ -8,4 +8,5 @@ st.text('')
 
 image=Image.open('./data/okojo.jpg')
 st.image(image, width=250)
-st.text('')
+st.text('ok')
+
