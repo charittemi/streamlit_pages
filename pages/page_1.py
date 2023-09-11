@@ -1,5 +1,4 @@
-﻿# Local URL: http://localhost:8501
-# Network URL: http://192.168.0.24:8501
+
 
 # streamlit >streamlit run main.py
 
@@ -20,7 +19,7 @@ col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
     st.text('CSVの中身')
     #CSV挿入
-    df= pd.read_csv('.\\data\\testdata.csv',index_col='No')
+    df= pd.read_csv('./data/testdata.csv',index_col='No')
     st.dataframe(df)
     
 with col2:
@@ -45,7 +44,7 @@ col1,col2=st.columns([1,2]) # カラムの比率1:2で設定
 with col1:
     st.text('CSVの中身')
     #CSV挿入
-    df= pd.read_csv('.\\data\\testdata.csv',index_col='No')
+    df= pd.read_csv('./data/testdata.csv',index_col='No')
     st.dataframe(df)
     
 with col2:
