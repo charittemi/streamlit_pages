@@ -12,7 +12,7 @@ st.caption('これはテスト用です')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
-image=Image.open('.\data\okojo_side.jpg')
+image = Image.open('.\\data\\okojo_side.jpg')
 st.image(image, width=250)
 st.text('')
 
@@ -26,7 +26,7 @@ st.caption('これはテスト用です')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
-image=Image.open('.\data\okojo_side.jpg')
+image = Image.open('.\\data\\okojo_side.jpg')
 st.image(image, width=250)
 st.text('')
 '''
