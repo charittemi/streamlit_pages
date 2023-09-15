@@ -10,8 +10,7 @@ st.text('')
 md = markdown_it.MarkdownIt()
 
 # Markdown text input
-markdown_text = st.text_area('Markdown編集欄（Ctrl + Enterで表示反映）', """
----
+markdown_text = st.text_area('Markdown編集欄（Ctrl + Enterで表示反映）', """---
 # Title
 ## Subtitle
 ### Another deeper title
