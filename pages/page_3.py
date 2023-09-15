@@ -2,7 +2,7 @@
 import markdown_it
 
 st.title('Page 3')
-st.caption('Markdownです')
+st.caption('Markdownテスト用')
 st.subheader('')
 st.text('')
 
