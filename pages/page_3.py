@@ -11,7 +11,6 @@ md = markdown_it.MarkdownIt()
 
 # Markdown text input
 markdown_text = st.text_area('Markdown編集欄（Ctrl + Enterで表示反映）', """
- `html_output = md.render(markdown_text)`
 ---
 # Title
 ## Subtitle
