@@ -14,5 +14,6 @@ This is a paragraph of text in *italic* and **bold**.
 
 [Link to Google](https://www.google.com)
 """
+print(markdown_text)
 st.text('ok')
 
