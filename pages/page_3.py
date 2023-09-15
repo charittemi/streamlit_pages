@@ -10,7 +10,7 @@ st.text('')
 md = markdown_it.MarkdownIt()
 
 # Markdown text input
-markdown_text = st.text_area('Enter Markdown Text', """
+markdown_text = st.text_area('Markdown Text入力欄', """
 # My Markdown Example
 
 This is a paragraph of text in *italic* and **bold**.
