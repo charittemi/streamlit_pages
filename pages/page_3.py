@@ -19,7 +19,7 @@ This is a paragraph of text in *italic* and **bold**.
 - Item 2
 
 [Link to Google](https://www.google.com)
-""")
+""", height=400)
 
 # Convert Markdown to HTML
 html_output = md.render(markdown_text)
