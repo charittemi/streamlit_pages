@@ -2,7 +2,7 @@
 import markdown_it
 
 st.title('Page 3')
-st.caption('テストページ作成中です')
+st.caption('Markdownです')
 st.subheader('')
 st.text('')
 
@@ -25,7 +25,7 @@ This is a paragraph of text in *italic* and **bold**.
 html_output = md.render(markdown_text)
 
 # Display HTML output
-st.write('HTML Output:')
+st.write('HTML outputでは以下のように表示される:')
 st.write(html_output, unsafe_allow_html=True)
 
 
