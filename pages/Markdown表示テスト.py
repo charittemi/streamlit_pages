@@ -21,7 +21,7 @@ This is a paragraph of text in *italic* and **bold**.
 
 ---
 
-""", height=300)
+""", height=250)
 
 # Convert Markdown to HTML
 html_output = md.render(markdown_text)
