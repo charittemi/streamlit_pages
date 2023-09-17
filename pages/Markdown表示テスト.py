@@ -1,7 +1,7 @@
 ﻿import streamlit as st
 import markdown_it
 
-st.title('Page 3')
+st.title('Markdown test page')
 st.caption('Markdown表示テスト用')
 st.text('')
 
