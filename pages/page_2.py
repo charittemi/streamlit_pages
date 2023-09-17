@@ -10,3 +10,14 @@ image=Image.open('./data/okojo.jpg')
 st.image(image, width=250)
 st.text('ok')
 
+# Markdown
+markdown = """
+
+$e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
+
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+$$
+
+"""
+st.markdown(markdown)
