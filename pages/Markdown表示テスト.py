@@ -19,11 +19,7 @@ This is a paragraph of text in *italic* and **bold**.
 
 [参考: Markdownの書き方](https://openstudy.jp/contribute/markdown-cheetsheet/)
 
-r"""
-
-$e^{i	heta}$ は $\cos	heta$ と $i\sin	heta$ の和です。
-
-"""
+r"$e^{i	heta}$ は $\cos	heta$ と $i\sin	heta$ の和です。"
 
 
 ---
