@@ -33,3 +33,28 @@ st.write(html_output, unsafe_allow_html=True)
 
 
 
+st.text('')
+st.subheader('Markdown記法で数式がうまく表示されない場合')
+st.text('文字列の先頭に` r `をつけることで、pythonのraw stringとして扱われ、  
+        エスケープシーケンスが無効化されるためMarkdown内で'\'記号をそのまま使用可能になります')
+
+markdown = r"""
+
+$e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
+
+"""
+st.markdown(markdown)
+
+code = '''
+
+<!-- 。-->
+
+markdown = r"""
+
+$e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
+
+"""
+st.markdown(markdown)
+
+'''
+st.code(code)

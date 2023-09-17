@@ -13,19 +13,19 @@ st.text('')
 # Markdown
 markdown = r"""
 
-$e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
-
 $$
 e^{i\theta} = \cos\theta + i\sin\theta
 $$
+
+$e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
 
 """
 st.markdown(markdown)
 
 code = '''
 
-<!-- Markdownで数式を記述する際、文字列の先頭に` r `をつけることで、
-pythonのraw stringとして扱われ、エスケープシーケンスが無効化されます。
+<!-- Markdownで数式を記述する際、文字列の先頭に` r `をつけることで、pythonの
+raw stringとして扱われ、エスケープシーケンスが無効化されます。
 これにより、Markdown内で\記号をそのまま使用することが可能になります。-->
 
 markdown = r"""
