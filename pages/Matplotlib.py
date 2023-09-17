@@ -8,9 +8,9 @@ from PIL import Image
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title('Page 1')
+st.title('Matplotlib')
 st.caption('これはグラフ表示ページです')
-st.subheader('matplotでcsvからグラフ作成')
+st.subheader('matplotlibでcsvからグラフ作成')
 
 st.text('')
 st.text('')
