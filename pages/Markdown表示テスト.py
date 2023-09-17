@@ -18,9 +18,11 @@ This is a paragraph of text in *italic* and **bold**.
 ---
 [参考:Markdownの書き方](https://openstudy.jp/contribute/markdown-cheetsheet/)
 ---
+
 $$
 e^2 = \cos\theta + i\sin\theta
 $$
+
 """, height=300)
 
 # Convert Markdown to HTML
