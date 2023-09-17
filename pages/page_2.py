@@ -19,5 +19,12 @@ $$
 e^{i\theta} = \cos\theta + i\sin\theta
 $$
 
+$e^{i\\th}$ は $cos\\th$ と $i\\sin\\th$ の和です。
+
+$$
+e^{i\\th} = cos\\th + i\\sin\\th
+$$
+
+
 """
 st.markdown(markdown)
