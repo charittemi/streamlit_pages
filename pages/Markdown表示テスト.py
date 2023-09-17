@@ -35,7 +35,7 @@ st.write(html_output, unsafe_allow_html=True)
 
 st.text('')
 st.subheader('Markdown記法で数式がうまく表示されない場合')
-st.wite('文字列の先頭に` r `をつけることで、pythonのraw stringとして扱われ、  \nエスケープシーケンスが無効化されるためMarkdown内で`\`記号をそのまま使用可能になります')
+st.write('文字列の先頭に` r `をつけることで、pythonのraw stringとして扱われ、  \nエスケープシーケンスが無効化されるためMarkdown内で`\`記号をそのまま使用可能になります')
 
 markdown = r"""
 
