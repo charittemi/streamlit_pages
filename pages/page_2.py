@@ -22,7 +22,7 @@ $$
 """
 st.markdown(markdown)
 
-st.write()
+code = '''
 
 # Markdownで数式を記述する際、文字列の先頭に` r `をつけることで、pythonのraw stringとして扱われ、エスケープシーケンスが無効化されます。これにより、Markdown内で\記号をそのまま使用することが可能になります。
 
@@ -32,3 +32,6 @@ $e^{i\theta}$ は $\cos\theta$ と $i\sin\theta$ の和です。
 
 """
 st.markdown(markdown)
+
+'''
+st.code(code)
