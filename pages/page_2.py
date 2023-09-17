@@ -24,7 +24,9 @@ st.markdown(markdown)
 
 code = '''
 
-# Markdownで数式を記述する際、文字列の先頭に` r `をつけることで、pythonのraw stringとして扱われ、エスケープシーケンスが無効化されます。これにより、Markdown内で\記号をそのまま使用することが可能になります。
+<!-- Markdownで数式を記述する際、文字列の先頭に` r `をつけることで、
+pythonのraw stringとして扱われ、エスケープシーケンスが無効化されます。
+これにより、Markdown内で\記号をそのまま使用することが可能になります。-->
 
 markdown = r"""
 
