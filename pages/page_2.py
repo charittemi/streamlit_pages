@@ -2,7 +2,7 @@
 from PIL import Image
 
 st.title('Page 2')
-st.caption('テストページ作成中です')
+st.caption('')
 st.subheader('')
 st.text('')
 
