@@ -17,6 +17,7 @@ def perform_ocr(image, client):
     texts = response.text_annotations
     return texts
 
+
 # Streamlitアプリケーション
 def main():
     st.title("Google OCRアプリ")
