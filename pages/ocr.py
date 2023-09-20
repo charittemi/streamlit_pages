@@ -9,7 +9,7 @@ st.title("Google OCRアプリ")
 uploaded_image = st.file_uploader("画像ファイルをアップロードしてください", type=["jpg", "png", "jpeg"])
 
 # GoogleOCRApplicationを初期化
-app = GoogleOCRApplication('C:/Users/risam/Desktop/Python_lesson/vs_src/OCRtest/ocrch_client_secret.json')
+app = GoogleOCRApplication('ocrch_client_secret.json')
 
 # OCRを実行するセクション
 if uploaded_image is not None:
