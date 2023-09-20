@@ -11,8 +11,11 @@ uploaded_image = st.file_uploader("画像ファイルをアップロードして
 # GoogleOCRApplicationを初期化
 app = GoogleOCRApplication('./ocrch_client_secret.json')
 
+# 実行ボタンがクリックされたかどうかを示すフラグ
+execute_ocr = st.button("実行")
+
 # OCRを実行するセクション
-if uploaded_image is not None:
+if uploaded_image is not None and execute_ocr:
     try:
         # 画像を一時的に保存
         with open("temp_image.jpg", "wb") as f:
