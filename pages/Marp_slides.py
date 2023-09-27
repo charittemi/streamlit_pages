@@ -3,9 +3,13 @@ import streamlit as st
 
 st.title('Marp Slides')
 st.subheader('')
-st.text('作成例')
+st.text('作成例(スライドショー)')
 url = "https://charittemi-slide1.streamlit.app/Slide_1"
 st.markdown(f"[{url}]({url})")
+
+st.text('一部スクショ')
+image=Image.open('./data/slide.jpg')
+st.image(image, width=500)
 
 # # Slide1.htmlを埋め込む
 # with open('Slide1.html', 'r', encoding='utf-8') as html_file:
