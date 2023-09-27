@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('Marp Slide')
 st.subheader('')
-st.text('作成中')
+st.text('作成例')
 url = "https://charittemi-slide1.streamlit.app/Slide_1"
 st.markdown(f"[{url}]({url})")
 
