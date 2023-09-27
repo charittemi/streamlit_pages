@@ -9,7 +9,7 @@ url = "https://charittemi-slide1.streamlit.app/Slide_1"
 st.markdown(f"[{url}]({url})")
 
 st.text('一部スクショ')
-image=Image.open('./data/slide.jpg')
+image=Image.open('./data/slide.png')
 st.image(image, width=500)
 
 # # Slide1.htmlを埋め込む
