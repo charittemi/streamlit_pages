@@ -7,4 +7,4 @@ st.title("Marp slides")
 url = "https://charittemi-slide1.streamlit.app/Slide_1"
 
 # iframeを作成して指定したURLを埋め込む
-st.components.v1.iframe(url, width=900)
+st.components.v1.iframe(url)
