@@ -5,6 +5,7 @@ st.title('Marp Slide')
 st.subheader('')
 st.text('作成中')
 url = "https://charittemi-slide1.streamlit.app/Slide_1"
+st.markdown(f"[{url}]({url})")
 
 # # Slide1.htmlを埋め込む
 # with open('Slide1.html', 'r', encoding='utf-8') as html_file:
