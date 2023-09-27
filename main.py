@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 st.title('はじめに')
-st.caption('本サイトはpython学習記録として作成したものです')
+st.caption('本サイトはpython学習記録として作成したものです.各種ライブラリを試しています')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
