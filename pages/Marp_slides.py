@@ -8,7 +8,7 @@ st.text('作成例(スライドショー)')
 url = "https://charittemi-slide1.streamlit.app/Slide_1"
 st.markdown(f"[{url}]({url})")
 
-st.text('一部スクショ')
+st.text('上記より抜粋したスクショ')
 image=Image.open('./data/slide.png')
 st.image(image)
 
