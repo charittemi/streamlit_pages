@@ -1,7 +1,0 @@
-{
-    "@theme": "mytheme",
-    "compile-hero.disable-compile-files-on-did-save-code": false,
-    "markdown.marp.themes": [
-        "mytheme.css"
-    ]
-}
