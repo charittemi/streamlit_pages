@@ -10,7 +10,7 @@ st.markdown(f"[{url}]({url})")
 
 st.text('一部スクショ')
 image=Image.open('./data/slide.png')
-st.image(image, width=500)
+st.image(image)
 
 # # Slide1.htmlを埋め込む
 # with open('Slide1.html', 'r', encoding='utf-8') as html_file:
