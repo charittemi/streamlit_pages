@@ -9,7 +9,7 @@ st.text('')
 st.subheader('地図作成例')
 st.text('')
 
-image=Image.open('./data/map.jpg')
+image=Image.open('./data/map.png')
 st.image(image, width=500)
 st.text('')
 
