@@ -1,7 +1,7 @@
 ﻿import streamlit as st
 from PIL import Image
 
-st.title('Page 2')
+st.title('')
 st.caption('')
 st.subheader('')
 st.text('')
