@@ -1,13 +1,10 @@
-
-
 # streamlit >streamlit run main.py
-
 
 import streamlit as st
 from PIL import Image
 
-st.title('タイトル')
-st.caption('これはテスト用に作ったページです')
+st.title('はじめに')
+st.caption('本サイトはpython学習記録として作成したものです')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
@@ -20,16 +17,15 @@ code='''
 import streamlit as st
 from PIL import Image
 
-st.title('タイトル')
-st.caption('これはテスト用です')
+st.title('はじめに')
+st.caption('本サイトはpython学習記録として作成したものです')
 st.subheader('About')
 st.text('streamlitでテストページを作ってみました')
 
 image=Image.open('./data/okojo_side.jpg')
 st.image(image, width=250)
-st.text('')
 '''
 st.code(code,language='python')
 st.text('')
-st.text('ok')
+st.text('')
 
