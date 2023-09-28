@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title('cartopyでカスタム地図作成')
 st.text('')
-st.write('basemapとほぼ同じ世界地図をcartopyを用いて作成しました。\n 地図の中心経度を変更した際の表示調整はbasemapのほうが簡単な印象です。')
+st.write('basemapとほぼ同じ世界地図をcartopyを用いて作成しました。\n 地図の中心経度を変更した際の表示調整はbasemapのほうが簡単な印象です。\n')
 st.subheader('地図作成例')
 st.text('')
 
