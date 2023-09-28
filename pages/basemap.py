@@ -3,7 +3,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title('cartopyでカスタム地図作成')
+st.title('basemapでカスタム地図作成')
 st.text('')
 st.write('basemapライブラリを用いて事業所マップを世界地図上にプロットしました.')
 st.text('')
