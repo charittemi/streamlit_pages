@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 st.title('cartopyでカスタム地図作成')
-st.caption('cartopyで事業所マップを世界地図上にプロットしました')
+st.text('')
 st.write('basemapとほぼ同じ世界地図をcartopyを用いて作成しました。\n地図の中心経度を変更した際の表示調整はbasemapのほうが簡単な印象でした')
 st.subheader('地図作成例')
 st.text('')
