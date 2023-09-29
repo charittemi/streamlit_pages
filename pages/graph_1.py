@@ -15,7 +15,7 @@ st.text('')
 std_dev = 1.0
 
 # t分布を計算
-x = np.linspace(-10, 10, 400)
+x = np.linspace(-7.5, 7.5, 400)
 pdf = t.pdf(x, df, scale=std_dev)
 
 # 正規分布を計算
