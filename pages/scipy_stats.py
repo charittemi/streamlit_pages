@@ -13,7 +13,7 @@ df = st.slider("自由度", 2, 30, 2)
 st.text('')
 
 # 標準偏差のスライダー
-std_dev = st.slider("標準偏差", 1.0, 8.0, 1.0)
+std_dev = st.slider("標準偏差", 1.0, 4.0, 1.0)
 st.text('')
 
 
