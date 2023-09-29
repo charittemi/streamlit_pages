@@ -1,16 +1,13 @@
 ﻿import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+import japanize_matplotlib
 from scipy.stats import t
 
 
-st.title('Graph')
-st.caption('グラフ読み込み確認用ページ')
+st.title('t分布の可視化')
+st.caption('スライダーを動かして標準偏差を変えることで分布の形が変わります')
 st.text('')
-
-
-# Streamlit UI部分
-st.title("t分布の可視化")
 
 # 標準偏差のスライダー
 std_dev = st.slider("標準偏差", 1.0, 10.0, 5.0)
