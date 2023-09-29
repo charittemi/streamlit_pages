@@ -9,7 +9,7 @@ st.caption('スライダーを動かして自由度を変えるとt分布の形�
 st.text('')
 
 # 自由度のスライダー
-df = st.slider("自由度", 5, 50, 10)
+df = st.slider("自由度", 2, 50, 10)
 st.text('')
 # 固定された標準偏差
 std_dev = 1.0
@@ -22,7 +22,7 @@ pdf = t.pdf(x, df, scale=std_dev)
 norm_pdf = norm.pdf(x, loc=0, scale=std_dev)
 
 # グラフを描画
-plt.figure(figsize=(5,4))
+plt.figure(figsize=(5,3))
 plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
 plt.plot(x, norm_pdf, label=f'正規分布 (標準偏差={std_dev})', color='orange')
 plt.xlabel('x')
