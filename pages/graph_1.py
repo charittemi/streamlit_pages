@@ -13,12 +13,12 @@ df = st.slider("自由度", 2, 30, 2)
 st.text('')
 
 # 標準偏差のスライダー
-std_dev = st.slider("標準偏差", 1.0, 8.0, 2.0)
+std_dev = st.slider("標準偏差", 1.0, 8.0, 1.0)
 st.text('')
 
 
 # t分布を計算
-x = np.linspace(-5, 5, 300)
+x = np.linspace(-5, 5, 200)
 pdf = t.pdf(x, df, scale=std_dev)
 
 # 正規分布を計算
