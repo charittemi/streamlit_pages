@@ -12,7 +12,7 @@ st.text('')
 df = st.slider("自由度", 5, 50, 10)
 st.text('')
 # 固定された標準偏差
-std_dev = 2.0
+std_dev = 1.0
 
 # t分布を計算
 x = np.linspace(-10, 10, 400)
