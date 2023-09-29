@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import japanize_matplotlib
 from scipy.stats import t,norm
 
-st.title('t分布の可視化')
-st.caption('スライダーを動かして自由度を変えると分布の形が変わります')
+st.title('t分布と正規分布')
+st.caption('スライダーを動かして自由度を変えるとt分布の形が変わります')
 st.text('')
 
 # 自由度のスライダー
