@@ -4,16 +4,15 @@ import matplotlib.pyplot as plt
 import japanize_matplotlib
 from scipy.stats import t
 
-
 st.title('t分布の可視化')
-st.caption('スライダーを動かして標準偏差を変えることで分布の形が変わります')
+st.caption('スライダーを動かして自由度を変えると分布の形が変わります')
 st.text('')
 
-# 標準偏差のスライダー
-std_dev = st.slider("標準偏差", 1.0, 8.0, 2.0)
+# 自由度のスライダー
+df = st.slider("自由度", 10, 200, 10)
 st.text('')
-# 自由度（例: 10）
-df = 10
+# 固定された標準偏差
+std_dev = 2.0
 
 # t分布を計算
 x = np.linspace(-10, 10, 400)
@@ -25,9 +24,7 @@ plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
 plt.xlabel('x')
 plt.ylabel('確率密度')
 
-# y軸の範囲を固定?
+# y軸の範囲を固定
 plt.ylim(0, 0.4)  
 plt.legend()
 st.pyplot(plt)
-
-
