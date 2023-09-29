@@ -19,13 +19,8 @@ df = 10
 x = np.linspace(-10, 10, 400)
 pdf = t.pdf(x, df, scale=std_dev)
 
-# グラフのサイズをページ幅の半分に設定
-st.set_option('deprecation.showPyplotGlobalUse', False)
-fig, ax = plt.subplots(figsize=(st._config.get_option("theme.primaryColor"), st._config.get_option("theme.primaryColor") / 2))
-
-
 # グラフを描画
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(10, 6))
 plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
 plt.xlabel('x')
 plt.ylabel('確率密度')
