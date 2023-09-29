@@ -27,7 +27,7 @@ plt.ylabel('確率密度')
 plt.legend()
 
 # y軸の範囲を固定
-plt.ylim(0, 0.4)  # スライダーにかかわらずY軸の最大値を固定
+plt.ylim(0, max(pdf) + 0.05)   # スライダーにかかわらずY軸の最大値を固定
 
 st.pyplot(plt)
 
