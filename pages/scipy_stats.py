@@ -25,8 +25,8 @@ norm_pdf = norm.pdf(x, loc=0, scale=std_dev)
 
 # グラフを描画
 plt.figure(figsize=(10,6))
-plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
-plt.plot(x, norm_pdf, label=f'正規分布 (標準偏差={std_dev})', color='orange')
+plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})', color='orange')
+plt.plot(x, norm_pdf, label=f'正規分布 (標準偏差={std_dev})', color='gray')
 plt.xlabel('x')
 plt.ylabel('確率密度')
 
