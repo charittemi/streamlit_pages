@@ -25,6 +25,6 @@ plt.xlabel('x')
 plt.ylabel('確率密度')
 
 # y軸の範囲を固定
-plt.ylim(0, 0.22)  
+plt.ylim(0, 0.45)  
 plt.legend()
 st.pyplot(plt)
