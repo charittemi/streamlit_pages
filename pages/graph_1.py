@@ -24,11 +24,10 @@ plt.figure(figsize=(10, 6))
 plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
 plt.xlabel('x')
 plt.ylabel('確率密度')
+
+# y軸の範囲を固定?
+plt.ylim(0, 0.4)  
 plt.legend()
-
-# y軸の範囲を固定
-plt.ylim(0, max(pdf) + 0.05)   # スライダーにかかわらずY軸の最大値を固定
-
 st.pyplot(plt)
 
 
