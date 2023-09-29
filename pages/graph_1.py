@@ -19,12 +19,12 @@ x = np.linspace(-10, 10, 400)
 pdf = t.pdf(x, df, scale=std_dev)
 
 # グラフを描画
-plt.figure(figsize=(5, 3))
+plt.figure(figsize=(10,6))
 plt.plot(x, pdf, label=f't分布 (自由度={df}, 標準偏差={std_dev})')
 plt.xlabel('x')
 plt.ylabel('確率密度')
 
 # y軸の範囲を固定
-plt.ylim(0, 0.25)  
+plt.ylim(0, 0.22)  
 plt.legend()
 st.pyplot(plt)
