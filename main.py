@@ -7,7 +7,7 @@ from PIL import Image
 #image=Image.open('./data/okojo_side.jpg')
 @st.cache
 def load_image(path):
-    return Image.open(path)
+    return Image.open('./data/okojo_side.jpg')
 
 def main():
     st.title('はじめに')
