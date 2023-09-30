@@ -1,5 +1,8 @@
 # streamlit >streamlit run main.py
 
+import streamlit as st
+from PIL import Image
+
 # 初期化時に一度だけ実行される処理
 #image=Image.open('./data/okojo_side.jpg')
 @st.cache
