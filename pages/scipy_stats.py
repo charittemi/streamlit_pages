@@ -34,3 +34,6 @@ plt.ylabel('確率密度')
 plt.ylim(0, 0.4)  
 plt.legend()
 st.pyplot(plt)
+
+st.text('')
+st.write('t分布は自由度が小さいほど裾野が長く伸び、95%区間が広くなる。/nサンプルサイズが十分大きければ（一般的に30）t分布は正規分布で近似できる。')
